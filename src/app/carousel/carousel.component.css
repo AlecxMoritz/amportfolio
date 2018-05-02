@@ -1,0 +1,9 @@
+#carouselWrapper {
+    margin: auto;
+    height: 60vh;
+    width: 75vw;
+    background-color: black;
+    position: relative;
+    top: 4em;
+    margin-bottom: 3em;
+}
