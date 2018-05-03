@@ -1,0 +1,9 @@
+#formWrapper {
+    height: 30em;
+    width: 95%;
+    margin: auto;
+}
+
+#contactForm {
+    height: 80%;
+}

@@ -11,6 +11,10 @@ import { AboutComponent } from './about/about.component';
 import { BadgesComponent } from './badges/badges.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResumeComponent } from './resume/resume.component';
+import { RecentDevelopmentComponent } from './recent-development/recent-development.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { WebDevPageComponent } from './web-dev-page/web-dev-page.component';
+import { WebDevProjectsComponent } from './web-dev-projects/web-dev-projects.component';
 
 
 @NgModule({
@@ -23,7 +27,11 @@ import { ResumeComponent } from './resume/resume.component';
     AboutComponent,
     BadgesComponent,
     FooterComponent,
-    ResumeComponent
+    ResumeComponent,
+    RecentDevelopmentComponent,
+    ContactFormComponent,
+    WebDevPageComponent,
+    WebDevProjectsComponent
   ],
   imports: [
     BrowserModule

@@ -1,6 +1,8 @@
 nav {
     font-size: .6em;
-    height: 4em;
+    min-height: 4em;
+    max-height: 20.9em;
+    z-index: 1;
 }
 
 .navbar-brand {
@@ -9,4 +11,9 @@ nav {
 
 .dropdown-item {
     font-size: .6em;
+}
+
+.dropdown-menu {
+    max-width: 8em;
+    background-color: rgb(52, 58, 64)
 }

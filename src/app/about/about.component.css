@@ -1,0 +1,12 @@
+#aboutPanel {
+    width: 90%;
+    margin: auto;
+}
+
+#title {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+p { text-indent:40px }

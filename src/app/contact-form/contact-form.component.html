@@ -1,0 +1,48 @@
+<div id="formWrapper">
+  <p class="tab" [ngStyle]="{'text-align':'center'}">Feel free to use this form to contact me with any questions or comments.</p>
+  <div id="contactForm">
+    <div class="formBox">    
+      <div class="col-xl">
+              <form action="https://formspree.io/alecxmoritz7@gmail.com" method="POST">
+                  <div class="control-group">
+                      <div class="form-group">
+                          <label style="font-size: 1.5em;">Name</label>
+                          <input style="font-size: 1.5em;" type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name"
+                              name="name">
+                          <p class="help-block text-danger"></p>
+                      </div>
+                  </div>
+                  <div class="control-group">
+                      <div class="form-group">
+                          <label style="font-size: 1.5em;">Email Address</label>
+                          <input style="font-size: 1.5em;" type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email"
+                              name="_replyto">
+                          <p class="help-block text-danger"></p>
+                      </div>
+                  </div>
+                  <div class="control-group">
+                      <div class="form-group">
+                          <textarea style="font-size: 1.5em;" class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
+                              name="message"></textarea>
+                          <p class="help-block text-danger"></p>
+                      </div>
+                  </div>
+                  <div class="text-center">
+                      <div id="success"></div>
+                      <button type="submit" class="btn btn-lg btn-light" style="font-size: 1.5em;">
+                          <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send Message</button>
+                  </div>
+              </form>
+          </div>
+          <br>
+          <br>
+          <br>
+          <h1 class="contactText"></h1>
+          <!-- <h3><center> Please reach out to me with any questions you might have</center></h3>
+          <h3><center> about my work, if you'd like me to build you someting,</center></h3>
+          <h3><center> or for formal emplyoment inquires.</center></h3> -->
+          <br>
+          <h4></h4>
+      </div>
+  </div>
+</div>

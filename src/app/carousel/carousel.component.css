@@ -1,9 +1,18 @@
+#carouselHeader {
+    margin-left: auto;
+    margin-top: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
 #carouselWrapper {
     margin: auto;
-    height: 60vh;
-    width: 75vw;
-    background-color: black;
+    margin-top: -2em;
+    height: 45vh;
+    width: 90vw;
+    background-color: rgb(121, 111, 182);
     position: relative;
     top: 4em;
     margin-bottom: 3em;
+    overflow: hidden;
 }
