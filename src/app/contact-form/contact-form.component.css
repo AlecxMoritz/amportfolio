@@ -1,9 +1,7 @@
 #formWrapper {
-    height: 30em;
-    width: 95%;
+    height: 45em;
+    width: 28em;
     margin: auto;
+    font-size: .7em;
 }
 
-#contactForm {
-    height: 80%;
-}

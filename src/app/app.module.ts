@@ -15,6 +15,7 @@ import { RecentDevelopmentComponent } from './recent-development/recent-developm
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { WebDevPageComponent } from './web-dev-page/web-dev-page.component';
 import { WebDevProjectsComponent } from './web-dev-projects/web-dev-projects.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { WebDevProjectsComponent } from './web-dev-projects/web-dev-projects.com
     WebDevProjectsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
