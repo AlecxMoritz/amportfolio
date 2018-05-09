@@ -16,6 +16,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { WebDevPageComponent } from './web-dev-page/web-dev-page.component';
 import { WebDevProjectsComponent } from './web-dev-projects/web-dev-projects.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { PagesNavbarComponent } from './pages-navbar/pages-navbar.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { AppRoutingModule } from './/app-routing.module';
     RecentDevelopmentComponent,
     ContactFormComponent,
     WebDevPageComponent,
-    WebDevProjectsComponent
+    WebDevProjectsComponent,
+    PagesNavbarComponent
   ],
   imports: [
     BrowserModule,

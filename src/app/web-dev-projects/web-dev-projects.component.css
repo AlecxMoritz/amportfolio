@@ -1,19 +1,18 @@
 body {
     font-size: 1em;
+    width: 100%;
 }
 
 .card-deck {
-    max-width: 90%;
-    margin: auto;
+    background-color: blue;
+    max-width: 95%;
+    
 }
 
 .card {
-    min-width: 19em;
-    max-width: 25em;
-    height: 60vh;
+    
     margin: auto;
     font-size: .7em;
-    margin-bottom: 1em;
     background-color: rgb(185, 185, 193);
     color: black;
 }

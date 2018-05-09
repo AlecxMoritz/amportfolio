@@ -1,16 +1,18 @@
 #techSkills {
-    text-align: center;
-    display: inline-block
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
 }
 
 .badgeWrapper {
-    width: 265px;
-    height: 250px;
-    
-    margin: 2em;
+    width: 7em;
+    height: 7em;
+    margin: 1em;
 }
 
-.badgeColumn {
-    display: inline-block;
+.flex-row {
+    justify-content: center;
 }
+
 
