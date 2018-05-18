@@ -1,17 +1,22 @@
 body {
+   
     font-size: 1em;
-    width: 100%;
+}
+
+#cardWrapper {
+   
 }
 
 .card-deck {
-    background-color: blue;
-    max-width: 95%;
-    
+    width: 90%;
+    margin: auto;
+    justify-content: center
 }
 
 .card {
-    
-    margin: auto;
+    max-width: 40em;
+    height: 35em;
+    margin: .5em;
     font-size: .7em;
     background-color: rgb(185, 185, 193);
     color: black;

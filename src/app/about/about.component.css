@@ -9,4 +9,18 @@
     font-size: 2em;
 }
 
-p { text-indent:40px }
+.panel-body {
+    word-wrap: break-word;
+}
+
+p { 
+    text-indent:40px;
+    word-wrap: break-word;
+}
+
+#eightBitOne {
+    float: left;
+    margin-right: 3em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
