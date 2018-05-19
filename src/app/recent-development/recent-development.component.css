@@ -12,3 +12,8 @@
     margin: auto;
     font-size: .7em;
 }
+
+.launch-btn {
+    position: realtive;
+    bottom: 0em;
+}
