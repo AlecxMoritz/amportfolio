@@ -3,9 +3,12 @@ nav {
     min-height: 4em;
     max-height: 20.9em;
     z-index: 1;
+    background-color: rgb(199,181,255);
 }
 
-
+#navbar {
+    background-color: rgb(199,181,255);
+}
 
 
 .navbar-brand {
