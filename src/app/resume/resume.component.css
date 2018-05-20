@@ -6,3 +6,12 @@
 #title {
     text-align: center;
 }
+
+a {
+    color: rgb(199,181,255)
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(120, 108, 154)
+}

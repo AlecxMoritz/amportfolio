@@ -13,6 +13,10 @@
     font-size: .7em;
 }
 
+.card {
+    background-color: silver;
+}
+
 .launch-btn {
     position: realtive;
     bottom: 0em;
