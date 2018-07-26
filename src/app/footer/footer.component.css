@@ -10,3 +10,7 @@ a:hover {
     text-decoration: none;
     color: rgb(120, 108, 154)
 }
+
+.footerListItem {
+    list-style-type: square;
+}
